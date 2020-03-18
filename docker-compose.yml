@@ -1,9 +1,28 @@
-version: '3'
+version: "3.7"
+
+x-deploy-data:
+  envSchema:
+    required:
+      - CONFIG
+    properties:
+      CONFIG:
+        type: string
+        format: code/yaml
+        description: The config used
+        default: |
+          some: yaml code
+          to:
+            test: if
+            this: works
+      SOME_URL_THAT_BEGIN_WITH_HTTP:
+        type: string
+        description: The url to connect the database, it will be kept encrypted
+        pattern: ^http:\/\/$$
 
 services:
-    frontend:
-        build: frontend
-        ports:
-            - 80:3000
-        env_file:
-            - .env
+  dummy-express:
+    image: gcr.io/containerful/example-containerful-template
+    build: .
+    environment:
+      - SOME_URL_THAT_BEGIN_WITH_HTTP=${SOME_URL_THAT_BEGIN_WITH_HTTP}
+      - CONFIG=${CONFIG}
