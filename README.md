@@ -1,1 +1,1 @@
-# nodejs-lib-template
+https://github.com/containerful/example-containerful-template
