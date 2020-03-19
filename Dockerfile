@@ -10,7 +10,9 @@ RUN yarn
 
 COPY . /workdir/
 
+RUN yarn tsc
+
 ENV PORT=80
 
 ENTRYPOINT ["dumb-init", "--"]
-CMD ["yarn", "start"]
+CMD node dist/index.js

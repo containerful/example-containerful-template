@@ -23,6 +23,8 @@ services:
   dummy-express:
     image: gcr.io/containerful/example-containerful-template
     build: .
+    ports:
+      - 1945:80
     environment:
       - SOME_URL_THAT_BEGIN_WITH_HTTP=${SOME_URL_THAT_BEGIN_WITH_HTTP}
       - CONFIG=${CONFIG}
