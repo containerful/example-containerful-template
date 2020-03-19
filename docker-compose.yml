@@ -17,7 +17,7 @@ x-deploy-data:
       SOME_URL_THAT_BEGIN_WITH_HTTP:
         type: string
         description: The url to connect the database, it will be kept encrypted
-        pattern: ^http:\/\/$$
+        pattern: ^http:\/\/.*$$
 
 services:
   dummy-express:
