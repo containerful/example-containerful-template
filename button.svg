@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="209px" height="72px" viewBox="0 0 209 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>zeitDeployButton</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.000268543352,4 C0.000268543352,1.79 3.21493735,0 7.16438759,0 L161.835881,0 C165.785331,0 169,1.79 169,4 L169,28 C169,30.21 165.785331,32 161.835881,32 L7.16438759,32 C5.23993635,31.9868228 3.4039394,31.5579719 2.06037346,30.807808 C0.716807515,30.057644 -0.0242457522,29.0476298 0.000268543352,28 L0.000268543352,4 Z" id="path-1"></path>
+        <filter x="-17.8%" y="-93.8%" width="135.5%" height="287.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3984375 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-37.000000, -30.000000)">
+            <g id="zeitDeployButton" transform="translate(57.000000, 50.000000)">
+                <g id="Path">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Instant-Deploy" font-family="SFUIText-Medium, SF UI Text" font-size="14" font-weight="400" letter-spacing="0.605305374" fill="#FFFFFF">
+                    <tspan x="52" y="21">Instant Deploy</tspan>
+                </text>
+                <polygon id="Path" fill="#4A4A4A" points="40 32 40 0 41 0 41 32"></polygon>
+                <path d="M11.5714286,10 L26.4285714,10 C26.7442857,10 27,9.70166667 27,9.33333333 L27,6.66666667 C27,6.29833333 26.7442857,6 26.4285714,6 L11.5714286,6 C11.2557143,6 11,6.29833333 11,6.66666667 L11,9.33333333 C11,9.70166667 11.2557143,10 11.5714286,10 Z M32.4285714,14 L17.5714286,14 C17.2557143,14 17,14.2983333 17,14.6666667 L17,17.3333333 C17,17.7016667 17.2557143,18 17.5714286,18 L32.4285714,18 C32.7442857,18 33,17.7016667 33,17.3333333 L33,14.6666667 C33,14.2983333 32.7442857,14 32.4285714,14 Z M26.4285714,22 L11.5714286,22 C11.2557143,22 11,22.2983333 11,22.6666667 L11,25.3333333 C11,25.7016667 11.2557143,26 11.5714286,26 L26.4285714,26 C26.7442857,26 27,25.7016667 27,25.3333333 L27,22.6666667 C27,22.2983333 26.7442857,22 26.4285714,22 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
